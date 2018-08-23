@@ -1,0 +1,103 @@
+
+.navbar-dark {
+	border-bottom: 2px solid #29282E;
+	transition: .3s;
+}
+
+.navbar-brand {
+	color: silver;
+	padding: 5px;
+	padding-left: 10px;
+	border-right: 2px solid #29282E;
+	padding-right: 15px;
+	transition: .3s;
+}
+
+.main {
+	background-color: #222127;
+}
+
+.badge {
+	background-color: #551A8B;
+	border-radius: 2px;
+	color: silver;
+
+	padding: 1px 3px;
+	font-size: 1px;
+
+	position: absolute; /* Position the badge within the relatively positioned button */
+	top: 0;
+	right: 0;
+}
+
+.nav-item {
+	list-style: none;
+	position: relative;
+	display: inline-block;
+}
+
+.top {
+	padding: 5px;
+}
+
+.material-icons {
+	color: #9A999F;
+}
+
+.material-icons:hover {
+	color: #5f6770;
+	transition: .1s;
+}
+
+.sidebar {
+	height: 100%;
+}
+
+.px-3 span{
+	padding-left: 0.7rem !important;
+	padding-bottom: 0.3rem !important;
+}
+
+.nav-link {
+	color: #DAD9DE;
+	text-decoration: none;
+	width: 100%;
+}
+
+.nav-link:hover {
+	color: #DAD9DE;
+}
+
+.sidebar-sticky {
+	padding: 0;
+}
+
+.hover {
+	padding-left: 0.7rem !important;
+}
+
+.hover:hover {
+	color: #888;
+	transition: .1s;
+	background: rgba(85, 26, 139, .2);
+}
+
+.nav-item:active {
+	background: -webkit-linear-gradient(#C51162 , #6200EA);
+}
+
+.nav-item:target {
+	background: -webkit-linear-gradient(#C51162 , #6200EA);}
+
+.navbar-dark > .form-control-dark {
+	background-color: transparent;
+	border: none;
+}
+
+.form-control[type=text] {
+	width: 35%;
+}
+
+.navbar-dark > .form-control-dark:focus {
+	background-color: transparent;
+}

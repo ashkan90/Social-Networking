@@ -3,11 +3,145 @@
 <head>
 	<title>sadsa</title>
 </head>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<body>
+	<link rel="stylesheet" type="text/css" href="css/colors.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<body class="main">
+	<nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" href="#">
+            BRAND NAME
+        </a>
+        <input class="form-control form-control-dark" type="text" placeholder="Search" aria-label="Search">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<a href="#">
-	<i class="material-icons" >add</i>	
-</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left Side Of Navbar -->
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+
+            <!-- Right Side Of Navbar -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item top">
+                    <a href="#"><i class="material-icons">language</i></a>
+               </li>
+                <li class="nav-item top">
+                    <a href="#"><i class="material-icons">comment</i></a>
+                    <span class="badge">4</span>
+                </li>
+                <li class="nav-item top">
+                	<a href="#"><i class="material-icons">account_circle</i></a>
+                </li>
+                <li class="nav-item top">
+                	<a href="#"><i class="material-icons">more_vert</i></a>
+                </li>
+                
+            </ul>
+        </div>
+	</nav>
+
+
+  	<div class="row">
+	    <nav class="col-md-2 d-none d-md-block navbar-dark sidebar">
+	      <div class="sidebar-sticky">
+	      	<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+	          <span>MENU</span>
+	          <a class="d-flex align-items-center text-muted" href="#">
+	            <span data-feather="plus-circle"></span>
+	          </a>
+	        </h6>
+	        <ul class="nav flex-column">
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              Home 
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              Orders
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              Discussion
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              Friends
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              Events
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              Videos
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              Photos
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              Files
+	            </a>
+	          </li>
+	        </ul>
+
+	        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+	          <span>YOUR FAVORITES</span>
+	          <a class="d-flex align-items-center text-muted" href="#">
+	            <span data-feather="plus-circle"></span>
+	          </a>
+	        </h6>
+	        <ul class="nav flex-column mb-2">
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              <span data-feather="file-text"></span>
+	              Railway Deals
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              <span data-feather="file-text"></span>
+	              Hockey Guys TR
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              <span data-feather="file-text"></span>
+	              Basketball TR
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              <span data-feather="file-text"></span>
+	              C++ Developers TR
+	            </a>
+	          </li>
+	          <li class="nav-item hover">
+	            <a class="nav-link" href="#">
+	              <span data-feather="file-text"></span>
+	              [D]ark Humor
+	            </a>
+	          </li>
+	        </ul>
+	      </div>
+	    </nav>
+    </div>
+
+    <div class="container-fluid">
+
+    </div>
 </body>
 </html>
