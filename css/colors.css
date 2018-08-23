@@ -5,7 +5,6 @@
 }
 
 .navbar-brand {
-	color: silver;
 	padding: 5px;
 	padding-left: 10px;
 	border-right: 2px solid #29282E;
@@ -13,18 +12,20 @@
 	transition: .3s;
 }
 
+.navbar a.navbar-brand {
+	color: #E0E0E0;
+	font-size: 13pt;
+}
+
+
 .main {
 	background-color: #222127;
 }
 
 .badge {
 	background-color: #551A8B;
-	border-radius: 2px;
+	border-radius: 1rem;
 	color: silver;
-
-	padding: 1px 3px;
-	font-size: 1px;
-
 	position: absolute; /* Position the badge within the relatively positioned button */
 	top: 0;
 	right: 0;
@@ -56,6 +57,7 @@
 .px-3 span{
 	padding-left: 0.7rem !important;
 	padding-bottom: 0.3rem !important;
+	font-size: 10pt;
 }
 
 .nav-link {
@@ -74,6 +76,7 @@
 
 .hover {
 	padding-left: 0.7rem !important;
+	font-size: 10pt;
 }
 
 .hover:hover {
