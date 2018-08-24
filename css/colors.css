@@ -2,6 +2,7 @@
 .navbar-dark {
 	border-bottom: 2px solid #29282E;
 	transition: .3s;
+	background-color: #222127;
 }
 
 .navbar-brand {
@@ -17,9 +18,9 @@
 	font-size: 13pt;
 }
 
-
 .main {
-	background-color: #222127;
+	/*background-color: #222127;*/
+	background-color: #1C1B21;
 }
 
 .badge {
@@ -42,6 +43,7 @@
 }
 
 .material-icons {
+	padding-right: .35rem !important;
 	color: #9A999F;
 }
 
@@ -104,3 +106,67 @@
 .navbar-dark > .form-control-dark:focus {
 	background-color: transparent;
 }
+
+main {
+	padding: 2rem;
+}
+
+.flex-md-nowrap {
+	padding: .5rem;
+	border: 1px solid white;
+	border-radius: 0.7rem;
+	padding-bottom: 1rem !important;
+	text-align: center !important;
+}
+
+i.uncontrol {
+	flex: 0 0 0 !important;
+    width: auto !important;
+    border: none !important;
+    background-color: transparent;
+    color: #9A999F;
+    padding-left: 1.2rem;
+}
+
+.btn-dark {
+	background-color: transparent !important;
+	border: none !important;
+	color: #E0E0E0 !important;
+}
+
+i.active {
+	color: #551A8B;
+	padding-left: 1rem !important;
+	padding-right: 1.2rem !important;
+}
+
+.flex-md-nowrap {
+	padding: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.text-muted {
+	padding-right: 1rem !important ;
+}
+
+.br-r {
+	border-right: 2px solid #29282E;
+}
+
+.br-b {
+	padding-bottom: 0 !important;
+	border: none;
+	border-radius: 4px;
+}
+
+.col-md-5, .identifier {
+	/*border: 1px solid white !important;*/
+	margin: 1.2rem !important;
+}
+.p {
+	margin: 1.8rem !important;
+	/*padding: 1.2rem !important;*/
+
+	padding: 0 !important;
+}
+
